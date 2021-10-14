@@ -18,7 +18,16 @@
 }
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'JMH-Typewriter';
+}
+
+h1 {
+    font-family: 'JMH-Beda';
+}
+
+h2 {
+    font-family: 'JMH-Beda';
+    font-size: 36px;
 }
 
 header {
@@ -46,7 +55,7 @@ footer {
 
 footer h2 {
     font-size: 24px;
-    margin-right: 20px;
+    margin-left: 20px;
     color: #78547C;
 }
 
@@ -116,6 +125,7 @@ main .section1 img {
     flex-wrap: wrap;
     background: #151515;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .section1-1 h1 {
@@ -123,6 +133,10 @@ main .section1 img {
     color: #78547C;
     font-size: 40px;
     text-align: center;
+}
+
+.section1-1 img {
+    margin-left: 5px;
 }
 
 
@@ -167,6 +181,7 @@ main .section1 img {
 
 .section3 .bloc2 {
     width: 60%;
+    margin-top: 25vh;
 }
 
 
@@ -261,8 +276,26 @@ div#slider figure img {
     height: 100px;
     object-fit: cover;
 }
+@media screen and (max-width: 1250px) {
+    .section2 {
+        height: 480px;
+    }
+
+    .section2 iframe {
+        width: 600px;
+        height: 335px;
+        margin-left: 20%;
+    }
+}
 
 @media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
     .section1 img {
         height: 400px !important;
     }
@@ -272,6 +305,13 @@ div#slider figure img {
     .section1 button {
         width: 240px;
         height: 50px;
+    }
+
+    .section1-1 {
+        padding-bottom: 15px;
+    }
+    .section1-1 img {
+        width: 25%;
     }
     .section2 {
         width: 100%;
@@ -287,6 +327,7 @@ div#slider figure img {
         margin-top: 0;
         text-align: center;
         width: 100%;
+        font-size: 20px;
     }
     .section2 iframe {
         width: 400px;
@@ -301,6 +342,7 @@ div#slider figure img {
     }
     .section3 .bloc2 {
         width: 100%;
+        margin-top: 0;
     }
     #slider {
         margin: 0;
