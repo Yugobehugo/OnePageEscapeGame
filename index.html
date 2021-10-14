@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spookorp présente 👻 A Spooky Story 👻</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 </head>
 
 <body>
@@ -25,8 +26,25 @@
 
         <section class="section1-1">
             <h1>A Spooky Story</h1>
-            <img src="img/logo2.png" alt="">
-
+            <div id="countdown-container">
+                <img src="img/logo2.png" alt="">
+                <div class="countdown-cell">
+                    <div class="countdown-block"><p id="days"></p></div>
+                    <p>jours</p>
+                </div>
+                <div class="countdown-cell">
+                    <div class="countdown-block"><p id="hours"></p></div>
+                    <p>heures</p>
+                </div>
+                <div class="countdown-cell">
+                    <div class="countdown-block"><p id="minutes"></p></div>
+                    <p>minutes</p>
+                </div>
+                <div class="countdown-cell">
+                    <div class="countdown-block"><p id="seconds"></p></div>
+                    <p>secondes</p>
+                </div>
+            </div>
         </section>
         <section class="section2">
             <h2>Regarder le trailer ici ! </h2>
@@ -133,6 +151,7 @@
         <img src="img/youtube.png" alt="">
         <img src="img/instagram.png" alt="">
         <p>© Spookorp 2021</p>
+        <script src="main.js"></script>
     </footer>
 </body>
 

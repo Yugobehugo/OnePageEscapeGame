@@ -139,6 +139,39 @@ main .section1 img {
     margin-left: 5px;
 }
 
+#countdown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.countdown-cell {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.countdown-cell p {
+    color: #fefefe;
+    margin-left: 45px;
+}
+
+.countdown-block {
+    background-color: #78547C;
+    width: 150px;
+    border-radius: 25px;
+    margin-top: 125px;
+}
+
+.countdown-cell .countdown-block p{
+    color: #fefefe;
+    margin:auto;
+    font-size: 36px;
+    margin-left: 25px;
+    padding: 30px;
+}
+
 
 /* section 2 */
 
@@ -286,6 +319,14 @@ div#slider figure img {
         height: 335px;
         margin-left: 20%;
     }
+
+    .countdown-cell {
+        width: 100%;
+    }
+
+    .countdown-cell .countdown-block p {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -305,6 +346,34 @@ div#slider figure img {
     .section1 button {
         width: 240px;
         height: 50px;
+    }
+
+    .section1-1 img {
+        margin-right: 20px;
+    }
+
+    #countdown-container {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .countdown-block {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+    .countdown-cell {
+        width: 65px;
+    }
+
+    .countdown-cell p {
+        margin: 0%;
+    }
+
+    .countdown-cell .countdown-block p {
+        margin: 0;
+        margin-left: 5px;
+        padding: 0;
     }
 
     .section1-1 {
